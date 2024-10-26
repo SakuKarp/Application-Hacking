@@ -8,6 +8,20 @@
  
 # b) Tutustu standardiin ISO 27034-1 - 5. Selvitä mistä standardi kokonaisuudesta on kyse.
 
+5 Structure of ISO/IEC 27034:
+
+Tässä kerrotaan ISO/IEC 27034:n rakenne. Tähän kuuluu 6 eri osaa.
+
+- Overview and concepts
+- Organization normative framework
+- Application security management process
+- Application security validation
+- Protocols and application security control data structure
+- Security guidance for specific applications
+
+Nämä kohdat antavat kattavan näkemyksen sovellusturvallisuuden hallinnasta. Ne auttavat organisaatioita ymmärtämään, miksi sovellusturvallisuus on tärkeää, ja tarjoavat käytännön työkaluja ja menetelmiä turvallisuuden parantamiseksi. Yhdistämällä teoriat ja käytännöt, organisaatiot voivat luoda vahvemman suojauksen sovelluksilleen, mikä suojaa niitä eri uhilta ja varmistaa liiketoiminnan turvallisuuden
+
+
 # c) Kuuntele podcast: Meurman 2021: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä. Mitä mieltä olet podcastin väittämistä?
 
 ## 1. Mikään ohjelmisto ei ole täysin tietoturvallinen.
