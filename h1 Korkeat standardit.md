@@ -1,6 +1,6 @@
 # a) Tutustu kurssin sanastoon, joka on määritelty SFS-EN ISO/IEC 27000:2020:en standardissa, kappaleessa 3. Terms and Definitions. Selvitä seuraavien kappaleiden määritteet ja selitä omin sanoin mitä ne tarkoittavat: 3.2, 3.31, 3.56, 3.58, 3.77.
 
-- 3.2 tarkoittaa sitä miten sunnittelut toimet touteutuvat ja miten päästään tuloksiin. 
+- 3.2 tarkoittaa sitä miten sunnittelut toimet touteutuvat ja miten päästään tuloksiin. Prosessissa arvioidaan toimintojen tehokkuutta ja käytännön vaikutuksia asetettujen tavoitteiden saavuttamisessa.
 - 3.31 Tietoturva vahinko jolla on merkittävä todennäköisyys vaarantaa liiketoimintaa. Näitä ovat tietovuoto, tietojärjestelmän häiriö tai jokin muu tapahtuma.
 - 3.56 Tämä viittaa tarpeeseen joka on ilmaistu suoraan tai on pakollinen. esim. dokumentaatio ja muut säännöt organisaation sisällä.
 - 3.58 Määritelmässä kuvataan toimintaa jossa arvioidaan soveltavuutta, riittävyttää ja tahokkuutta. Soveltuuko se hyvin, täyttääkö se kaikki vaatimukset ja kuinka saavutetaan asetetut tavoitteet tehokkaasti.
