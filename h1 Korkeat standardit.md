@@ -12,12 +12,12 @@
 
 Tässä kerrotaan ISO/IEC 27034:n rakenne. Tähän kuuluu 6 eri osaa.
 
-- Overview and concepts
-- Organization normative framework
-- Application security management process
-- Application security validation
-- Protocols and application security control data structure
-- Security guidance for specific applications
+- Overview and concepts - Yleiskatsaus ja käsitteet
+- Organization normative framework - Organisaation normatiivinen kehys
+- Application security management process - Sovellusturvallisuuden hallintaprosessi
+- Application security validation - Sovellusturvallisuuden vahvistaminen
+- Protocols and application security control data structure - Protokollat ja sovellusturvallisuuden valvontadatan rakenne
+- Security guidance for specific applications - Turvallisuusohjeet erityis-sovelluksille
 
 Nämä kohdat antavat kattavan näkemyksen sovellusturvallisuuden hallinnasta. Ne auttavat organisaatioita ymmärtämään, miksi sovellusturvallisuus on tärkeää, ja tarjoavat käytännön työkaluja ja menetelmiä turvallisuuden parantamiseksi. Yhdistämällä teoriat ja käytännöt, organisaatiot voivat luoda vahvemman suojauksen sovelluksilleen, mikä suojaa niitä eri uhilta ja varmistaa liiketoiminnan turvallisuuden
 
