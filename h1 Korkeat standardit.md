@@ -50,7 +50,14 @@ Podcastissa kerrottiin että, kun näkee ohjelmistojen riskejä tämän ohjelman
 
 # d) Asenna Debian 12-Bookworm virtuaalikoneeseen. Päivitä kaikki ohjelmat.
 
-Asensin Debian 12-bookwormin virtuaalikoneeseen sekä päivitin kaikki ohjelmat.
+Asensin Debian 12-bookwormin virtuaalikoneeseen sekä päivitin kaikki ohjelmat sekä tulimuurin. 
+
+![image](https://github.com/user-attachments/assets/9cce2b21-e723-46f3-9ee3-b4ff5ef15b3c)
+
+     sudo apt-get update && sudo apt-get upgrade
+     sudo apt-get -y install ufw
+     sudo ufw enable
+
 
 # References 
 
