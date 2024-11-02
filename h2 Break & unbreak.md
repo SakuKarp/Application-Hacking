@@ -47,7 +47,7 @@ Sehän toimii joten aloitetaan testailu.
     123'OR 1=1-- LIMIT 1,2; (muut limitit)
     foo'OR 1=1 LIMIT 1,2; (muut limitit)
     
-Ja lukuisten muiden yritysten jälkeen löysin oikean:
+Ja muiden yritysten jälkeen löysin oikean:
 
     'OR 1=1 LIMIT 2,1; --
 
