@@ -10,6 +10,7 @@ Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf
 - Tehokas fuzzaus työkalu
 
 PortSwigger: Access control vulnerabilities and privilege escalation
+
 -Käyttöoikeuksien muuttaminen (esim. roolit)
 -Pääsynhallinan estäminen
 
