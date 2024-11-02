@@ -56,15 +56,6 @@ Ja muiden yritysten jälkeen löysin oikean:
 Kuvan yläpuolella näkyy salasana.
 
 
-
-    
-
-    
-
-
-
-
-
 # b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
 
 # c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
@@ -75,6 +66,21 @@ https://github.com/SakuKarp/Tunkeutumistestaus/blob/main/h3%20Fuff%20faster.md
 
 
 # d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
+
+Aloitin tehtävän pistämällä servun päälle käyttäen ohjeita : https://terokarvinen.com/hack-n-fix/ 020 - Your Eyes Only
+
+Servu päällä: 
+![image](https://github.com/user-attachments/assets/6176cdcc-da5c-4797-b71c-3fa8b1ebfe90)
+
+Aloitin tutkimalla mitä kaikkea sivustolla on. 
+
+
+
+
+
+
+
+
 
 # e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
 
