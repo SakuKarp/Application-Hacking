@@ -40,7 +40,7 @@ Index.html tiedostosta löytyi kohta missä on input type="number". Jätin type 
 
 Testi toimiiko kirjoitus: ![image](https://github.com/user-attachments/assets/1ba1dea4-9974-4f58-a346-88a6cdd39608)
 
-Sehän toimii joten aloitetaan testailu.
+index.html tiedoston tallentamisen ja serverin uudelleen käyynnistämisen jälkeen se toimii joten aloitetaan testailu.
 
     
     'OR1=1-- LIMIT 1,2; (muut limitit)
