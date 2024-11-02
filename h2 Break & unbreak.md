@@ -69,6 +69,11 @@ Kuvan yläpuolella näkyy salasana.
 
 # c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
 
+Olin tehnyt kyseisen tehtävän Tunkeutumistestaus kurssilla. Tehtäväni löytyy B osiosta: 
+
+https://github.com/SakuKarp/Tunkeutumistestaus/blob/main/h3%20Fuff%20faster.md
+
+
 # d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
 
 # e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
