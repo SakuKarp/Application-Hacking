@@ -1,4 +1,4 @@
-x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
+X x) Lue/katso/kuuntele ja tiivistä. Linkit lähteissä.
 
 OWASP: OWASP Top 10: A01 Broken Access Control
 - Haavoittuvuudet jotka sisältävät luvattoman pääsyn, URL manipulointi, tilitietojen väärinkäyttö ja eri API-kutsujen puutteelliset suojat.
@@ -13,7 +13,7 @@ PortSwigger: Access control vulnerabilities and privilege escalation
 -Käyttöoikeuksien muuttaminen (esim. roolit)
 -Pääsynhallinan estäminen
 
-## Karvinen 2006: Raportin kirjoittaminen
+Karvinen 2006: Raportin kirjoittaminen
 
 - raportissa kerrotaan miten raportin pitää olla toistettava ja täsmällinen. Raportin pitää olla helpostiluettava ja selkeä rakenteeltaan.
 - Lähteisiin pitää muistaa viitata.
