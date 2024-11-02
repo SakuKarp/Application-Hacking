@@ -31,3 +31,7 @@ h) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa.
 
 # References
 https://terokarvinen.com/application-hacking/#kertauspaketti
+https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+https://portswigger.net/web-security/access-control
+https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
