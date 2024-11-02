@@ -23,6 +23,24 @@ Karvinen 2006: Raportin kirjoittaminen
 
 # a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix
 
+Aloitin laittamalla serverin päälle käyttäen teron ohjeita : https://terokarvinen.com/hack-n-fix/ 010 - Staff Only kohdasta.
+
+Tehtävänä on löytää salasana käyttäen SQL-injektiota. Aluksi testasin normaalisti oman pin koodin 123:
+
+![image](https://github.com/user-attachments/assets/6488181b-b5ba-4998-9f7b-f5d1a39438a3)
+
+Huomasin että kenttään ei voi kirjoittaa kirjaimia joten lähdin etsimään miten se muutetaan koodissa.
+
+Suljin serverin ja menin muokkaamaan index.html koodia. kuvassa näkyy polku index.html tiedostoon.
+![image](https://github.com/user-attachments/assets/bc88e0d6-cd47-4308-a2b6-fa1e4b6ca36e)
+
+Index.html tiedostosta löytyi kohta missä on input type="number". Jätin type kohdan tyhjäksi ja testasin toimiiko kirjaimet nyt sivustolla. 
+
+![image](https://github.com/user-attachments/assets/1d7b4773-2819-45e7-8a1c-878bbd161f37)
+
+
+
+
 # b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
 
 # c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
