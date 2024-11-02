@@ -72,7 +72,37 @@ Aloitin tehtävän pistämällä servun päälle käyttäen ohjeita : https://te
 Servu päällä: 
 ![image](https://github.com/user-attachments/assets/6176cdcc-da5c-4797-b71c-3fa8b1ebfe90)
 
-Aloitin tutkimalla mitä kaikkea sivustolla on. 
+Aloitin tutkimalla mitä kaikkea sivustolla on löysin rekisteröinnin, kirjautumisen, personal data ja admin dashboardin. Tehtävän tarkoitus oli päästä järjestelmänvalvojan consoli osioon. Olen jo aiemmin tunkeutumistestauksessä käyttänyt Ffuffia ja aloitin Ffuffaamalla kohde sivustoa:
+
+Aloitin asentamalla Ffuffin (käytin tähän ohjetta https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/):
+Käytin myös valmista seclistiä by: DanielMiessler linkki lähteissä.
+
+     wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd64.tar.gz #asentaa
+     tar -xf ffuf_2.0.0_linux_amd64.tar.gz #purkaa
+     wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt #luo dictionaren
+
+Sitten päästäänkin fuzzaamaan.
+
+    ./ffuf -w common.txt -u http://127.0.0.1:8000/FUZZ # -W eli worlist ja -u eli kohde url
+
+![image](https://github.com/user-attachments/assets/c14b5204-bdd9-43cb-a92a-4e92680d691f)
+
+Sieltä löytyi admin-console eli meidän haluttu kohde sivusto.
+
+Koitin mennä suoraan 127.0.0.1:8000/admin-console/ mutta se ei päästänyt minua admin-consoleen.
+
+Testailin muutaman kerran että olinko missanut jotain mutta sitten kun menin  127.0.0.1:8000/admin-console/ se vei sivustolle jossa kirjaudutaan sisään. Rekisteröidyin sivuston kautta ja kirjauduin sisään. Kun olin kirjautunut sisään fuzzazin uudestaan ja se näytti uudestaan admin-consolen joten testasin vielä 127.0.0.1:8000/admin-console/ sivua ja sieltä löytyi:
+
+![image](https://github.com/user-attachments/assets/9adac45b-5847-41eb-b760-2ece00694e02)
+
+
+
+
+
+    
+     
+
+    
 
 
 
@@ -89,8 +119,10 @@ g) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa.
 h) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
 
 # References
+https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 https://terokarvinen.com/application-hacking/#kertauspaketti
 https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 https://portswigger.net/web-security/access-control
 https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt
