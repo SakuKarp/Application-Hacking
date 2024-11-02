@@ -50,6 +50,11 @@ index.html tiedoston tallentamisen ja serverin uudelleen käyynnistämisen jälk
 Ja muiden yritysten jälkeen löysin oikean:
 
     'OR 1=1 LIMIT 2,1; --
+    
+- OR 1=1 tekee ehdon joka on aina tosi
+- LIMIT rajoittaa tulostaulun rivit 
+- ; päättää lauseen 
+- -- aloittaa kommentin
 
 ![image](https://github.com/user-attachments/assets/f6b69029-c8f2-464a-af51-4cc04588ef7b)
 
