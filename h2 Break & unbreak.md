@@ -132,3 +132,5 @@ https://portswigger.net/web-security/access-control
 https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
 https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt
+
+https://portswigger.net/web-security/all-labs
