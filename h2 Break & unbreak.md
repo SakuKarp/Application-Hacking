@@ -99,25 +99,18 @@ Eli jonkinlainen käyttäjänoikeuksiin liittyvä vika tässä on.
 
 
 
-
-    
-     
-
-    
-
-
-
-
-
-
-
-
-
 # e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
 
-g) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
+# g) & h)
 
-h) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
+Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data"
+Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
+
+Teimme nämä jo tunnilla:
+
+![image](https://github.com/user-attachments/assets/4485f7c8-4731-4e73-9098-74d1d35f1210)
+
+
 
 # References
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
