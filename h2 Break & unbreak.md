@@ -11,9 +11,8 @@ Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf
 
 PortSwigger: Access control vulnerabilities and privilege escalation
 
--Käyttöoikeuksien muuttaminen (esim. roolit)
-
--Pääsynhallinan estäminen
+- Käyttöoikeuksien muuttaminen (esim. roolit)
+- Pääsynhallinan estäminen
 
 Karvinen 2006: Raportin kirjoittaminen
 
