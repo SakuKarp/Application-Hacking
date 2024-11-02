@@ -1,4 +1,4 @@
-X x) Lue/katso/kuuntele ja tiivistä. Linkit lähteissä.
+# x) Lue/katso/kuuntele ja tiivistä. Linkit lähteissä.
 
 OWASP: OWASP Top 10: A01 Broken Access Control
 - Haavoittuvuudet jotka sisältävät luvattoman pääsyn, URL manipulointi, tilitietojen väärinkäyttö ja eri API-kutsujen puutteelliset suojat.
