@@ -95,6 +95,7 @@ Testailin muutaman kerran että olinko missanut jotain mutta sitten kun menin  1
 
 ![image](https://github.com/user-attachments/assets/9adac45b-5847-41eb-b760-2ece00694e02)
 
+Eli jonkinlainen käyttäjänoikeuksiin liittyvä vika tässä on.
 
 
 
