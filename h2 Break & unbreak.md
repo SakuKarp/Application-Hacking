@@ -119,6 +119,8 @@ Teimme nämä jo tunnilla:
 
 # References
 
+https://portswigger.net/web-security/sql-injection
+
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 
 https://terokarvinen.com/application-hacking/#kertauspaketti
