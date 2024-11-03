@@ -131,7 +131,15 @@ Eli jonkinlainen käyttäjänoikeuksiin liittyvä vika tässä on.
 
 # e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
 
+Huomasin että haavoittuvuus liittyy käyttäjäoikeuksiin jotenkin ja olin nähnyt Teron sivulla edellistä tehtävää tehdessä että View permissions are checked in views.py joten etsin tämän kyseisen tiedoston. 
 
+![image](https://github.com/user-attachments/assets/e0049e95-d21b-44cc-9c23-eef16b49c98d)
+
+Huomasin heti että AdminShowAllView:istä puuttuu teksti joka on AdminDashboardViewi:ssä joten lisäsin saman tekstin siihen. Tallensin muutokset ja käynnistin servun uudestan.
+
+![image](https://github.com/user-attachments/assets/f6bea0ec-2c4b-44e2-8322-8c9aac868864)
+
+Kuten kuvassa näkyy ei enään admin-consolille ollut asiaa.
 
 # g) & h)
 
