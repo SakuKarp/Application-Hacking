@@ -63,6 +63,34 @@ Kuvan yläpuolella näkyy salasana.
 
 # b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
 
+Aloitin tutkimalla staff-only.py tiedostoa ja löysin rivin 22 missä se yhdistää suoraan käyttäjän syötteen pin SQL-lauseeseen
+
+![image](https://github.com/user-attachments/assets/1b7c7046-3f38-4cb1-bdb7-07f63e95f580)
+
+Luin OWASP cheatsheetiltä eri puolustuksista ja siellä oli ensimmäisenä että parametrisen kyselyn luominen estää SQL-injektiot.
+
+Lisäsin koodiin parametrisoidun kyselyn
+
+    sql = "SELECT password FROM pins WHERE pin=:pin;" 
+    row = ""
+    with app.app_context():
+    res = db.session.execute(text(sql), {'pin': pin}) 
+    db.session.commit() 
+    row = res.fetchone()
+
+![image](https://github.com/user-attachments/assets/039df85d-dc29-49bf-a92f-1a3fd54beaf4)
+
+
+Tässä parametrisoidussa kyselyssä :pin toimii paikkamerkkinä ja käyttäjän syöte lisätään turvallisesti kyselyyn parametrien kautta
+
+![image](https://github.com/user-attachments/assets/baa82b0f-a665-4bdc-b8fc-fe941780a20f)
+
+Sivustolla ei enää toimi SQL-injektio mitä käytin tehtävässä a.
+
+
+
+
+
 # c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
 
 Olin tehnyt kyseisen tehtävän Tunkeutumistestaus kurssilla. Tehtäväni löytyy B osiosta: 
@@ -122,6 +150,8 @@ Teimme nämä jo tunnilla:
 https://portswigger.net/web-security/sql-injection
 
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+
+https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
 
 https://terokarvinen.com/application-hacking/#kertauspaketti
 
