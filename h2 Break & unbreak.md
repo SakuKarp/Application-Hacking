@@ -137,6 +137,9 @@ Huomasin että haavoittuvuus liittyy käyttäjäoikeuksiin jotenkin ja olin näh
 
 Huomasin heti että AdminShowAllView:istä puuttuu teksti joka on AdminDashboardViewi:ssä joten lisäsin saman tekstin siihen. Tallensin muutokset ja käynnistin servun uudestan.
 
+Korjattu: ![image](https://github.com/user-attachments/assets/6bdac5e2-f276-44b8-9aba-22e01eb0e0ca)
+
+
 ![image](https://github.com/user-attachments/assets/f6bea0ec-2c4b-44e2-8322-8c9aac868864)
 
 Kuten kuvassa näkyy ei enään admin-consolille ollut asiaa koska oikeudet olivat laitettu kuntoon.
