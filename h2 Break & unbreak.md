@@ -144,6 +144,7 @@ Kuten kuvassa näkyy ei enään admin-consolille ollut asiaa koska oikeudet oliv
 # g) & h)
 
 Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data"
+
 Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
 
 Teimme nämä jo tunnilla:
