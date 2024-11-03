@@ -139,7 +139,7 @@ Huomasin heti että AdminShowAllView:istä puuttuu teksti joka on AdminDashboard
 
 ![image](https://github.com/user-attachments/assets/f6bea0ec-2c4b-44e2-8322-8c9aac868864)
 
-Kuten kuvassa näkyy ei enään admin-consolille ollut asiaa.
+Kuten kuvassa näkyy ei enään admin-consolille ollut asiaa koska oikeudet olivat laitettu kuntoon.
 
 # g) & h)
 
