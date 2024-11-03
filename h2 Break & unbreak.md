@@ -121,15 +121,17 @@ Sieltä löytyi admin-console eli meidän haluttu kohde sivusto.
 
 Koitin mennä suoraan 127.0.0.1:8000/admin-console/ mutta se ei päästänyt minua admin-consoleen.
 
-Testailin muutaman kerran että olinko missanut jotain mutta sitten kun menin  127.0.0.1:8000/admin-console/ se vei sivustolle jossa kirjaudutaan sisään. Rekisteröidyin sivuston kautta ja kirjauduin sisään. Kun olin kirjautunut sisään fuzzazin uudestaan ja se näytti uudestaan admin-consolen joten testasin vielä 127.0.0.1:8000/admin-console/ sivua ja sieltä löytyi:
+Testailin useita kertoja että olinko missanut jotain mutta sitten kun menin  127.0.0.1:8000/admin-console/ se vei sivustolle jossa kirjaudutaan sisään. Rekisteröidyin sivuston kautta ja kirjauduin sisään. Kun olin kirjautunut sisään fuzzazin uudestaan ja se näytti uudestaan admin-consolen joten testasin vielä 127.0.0.1:8000/admin-console/ sivua ja sieltä löytyi:
+
+Tähän auttoi myös Opettajan vinkki "Did you try as logged-in user, too?".
 
 ![image](https://github.com/user-attachments/assets/9adac45b-5847-41eb-b760-2ece00694e02)
 
 Eli jonkinlainen käyttäjänoikeuksiin liittyvä vika tässä on.
 
-
-
 # e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
+
+
 
 # g) & h)
 
