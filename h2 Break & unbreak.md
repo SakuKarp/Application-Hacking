@@ -72,11 +72,8 @@ Luin OWASP cheatsheetilt채 eri puolustuksista ja siell채 oli ensimm채isen채 ett�
 Lis채sin koodiin parametrisoidun kyselyn
 
     sql = "SELECT password FROM pins WHERE pin=:pin;" 
-    row = ""
-    with app.app_context():
     res = db.session.execute(text(sql), {'pin': pin}) 
-    db.session.commit() 
-    row = res.fetchone()
+ 
 
 ![image](https://github.com/user-attachments/assets/039df85d-dc29-49bf-a92f-1a3fd54beaf4)
 
