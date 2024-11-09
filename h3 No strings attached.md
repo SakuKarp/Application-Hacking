@@ -20,7 +20,7 @@ Ajoin komennon strings passtr joka avasi tiedoston josta löytyi flagi:
 
 ## b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
 
-En tiedä miten obfuskointi toimii koodissa joten käytin tähän tehtävään Copilottia joka avasi hieman tätä miten tämä toimii.
+En tiedä miten obfuskointi toimii koodissa joten käytin tähän tehtävään Copilottia joka avasi hieman tätä miten tämä toimii.  lähde: https://copilot.microsoft.com/
 
 
 Alkuperäinen: 
@@ -52,3 +52,4 @@ kuvassa näkyy salasanaa ei näy enää strings passtr komennolla.
 # References
 
 https://terokarvinen.com/application-hacking/
+https://copilot.microsoft.com/
