@@ -63,5 +63,8 @@ Jatkan tehtävää vielä.
 
 # References
 
+https://www.gdbtutorial.com/tutorial/how-install-gdb
+
 https://terokarvinen.com/application-hacking/
+
 https://copilot.microsoft.com/
