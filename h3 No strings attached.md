@@ -51,6 +51,14 @@ kuvassa näkyy salasanaa ei näy enää strings passtr komennolla.
 
 ## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
 
+Aloitin miettimällä miten lähden lähestymään tätä tehtävää ja ensimmäisenä mieleeni tuli katsoa debuggaus ohjelmia. päädyin lataamaan GNU debuggerin: https://www.gdbtutorial.com/tutorial/how-install-gdb. Latasin tämän ja yritin kaikenlaista mutta en osaa käyttää tätä yhtään. Tutkiskelin tätä debuggeria noin tunnin mutta en ole yhtään varma miten saan tämän toimimaan oikein.
+
+Jatkan tehtävää vielä.
+
+
+
+
+
 ## d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
 
 # References
