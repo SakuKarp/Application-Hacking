@@ -30,6 +30,10 @@ Alkuperäinen:
 Muutettu:
 ![image](https://github.com/user-attachments/assets/2d1e4e5a-1c1f-4ec2-b5e8-1b4a0dd441be)
 
+Kun koodi muunnettu käännetään se :
+
+    gcc -o passtr passtr.c # gcc kutsuu kääntäjän, -o Määrittää tiedoston nimeksi psstr, psstr.c tiedosto joka käännetään
+
 Koodiin lisätään obfuscate -funktio, joka käyttää XOR-operaatiota obfuskoimiseen. Se käy läpi jokaisen salassanan merkin ja tekee XOR operaation annetulla avaimella key.
 
     char key = 'k'; # Obfuskaatioavain
