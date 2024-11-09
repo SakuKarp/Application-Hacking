@@ -20,6 +20,15 @@ Ajoin komennon strings passtr joka avasi tiedoston josta löytyi flagi:
 En tiedä miten obfuskointi toimii koodissa joten käytin tähän tehtävään Copilottia joka avasi hieman tätä miten tämä toimii.
 
 
+Alkuperäinen: 
+
+![image](https://github.com/user-attachments/assets/b809811e-af19-4bb9-ac40-8fe58534b9fa)
+
+Muutettu:
+
+
+
+
 
 ## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
 
