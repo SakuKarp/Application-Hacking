@@ -5,12 +5,15 @@ Aloitin lataamalla paketin ezbin-challenges.zip Teron sivulta https://terokarvin
 
 ![image](https://github.com/user-attachments/assets/24560ff3-11e8-4910-b741-df3a93dd4ddb)
 
+Ajoin komennon strings passtr joka avasi tiedoston josta löytyi flagi:
+
 
 ![image](https://github.com/user-attachments/assets/a73feb48-30fd-4179-994d-ea78b9e2c4db)
 
-Ajoin komennon strings passtr joka avasi tiedoston josta löytyi flagi:
 
-![image](https://github.com/user-attachments/assets/04819a21-bd9c-4276-bc55-458f1cb4bbdb)
+
+
+![image](https://github.com/user-attachments/assets/f69d8784-0602-42e0-bc1b-6bbc674068c3)
 
 
 
