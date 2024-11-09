@@ -30,6 +30,12 @@ Alkuperäinen:
 Muutettu:
 ![image](https://github.com/user-attachments/assets/2d1e4e5a-1c1f-4ec2-b5e8-1b4a0dd441be)
 
+Koodiin lisätään obfuscate -funktio, joka käyttää XOR-operaatiota obfuskoimiseen. Se käy läpi jokaisen salassanan merkin ja tekee XOR operaation annetulla avaimella key.
+
+    char key = 'k'; # Obfuskaatioavain
+    obfuscate(secret, key); # obfuskoidaan salainen salasana
+    obfuscate(password, key); # obfuskoidaan käyttäjän syöttämä salasana
+
 
 ![image](https://github.com/user-attachments/assets/b0cb274b-d7b8-4005-8a3e-ae11c02a1dcd)
 
