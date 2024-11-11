@@ -74,6 +74,8 @@ UPX ilmoitti että purkasi tiedoston. Tämän jälkeen menin katsomaan uudestaan
 
 # References
 
+https://www.javatpoint.com/linux-strings-command
+
 https://github.com/upx/upx/releases
 
 https://terokarvinen.com/application-hacking/
