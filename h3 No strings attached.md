@@ -7,6 +7,8 @@ Aloitin lataamalla paketin ezbin-challenges.zip Teron sivulta https://terokarvin
 
 Ajoin komennon strings passtr joka avasi tiedoston josta löytyi flagi:
 
+        strings passtr # strings komento etsii tiedostosta kaikki tulostettavat merkkijonot ja tulostaa ne "passtr" kohde tiedostosta
+
 
 ![image](https://github.com/user-attachments/assets/a73feb48-30fd-4179-994d-ea78b9e2c4db)
 
