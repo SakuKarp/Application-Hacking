@@ -51,10 +51,15 @@ kuvassa näkyy salasanaa ei näy enää strings passtr komennolla.
 
 ## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
 
-Aloitin miettimällä miten lähden lähestymään tätä tehtävää ja ensimmäisenä mieleeni tuli katsoa debuggaus ohjelmia. päädyin lataamaan GNU debuggerin: https://www.gdbtutorial.com/tutorial/how-install-gdb. Latasin tämän ja yritin kaikenlaista mutta en osaa käyttää tätä yhtään. Tutkiskelin tätä debuggeria noin tunnin mutta en ole yhtään varma miten saan tämän toimimaan oikein.
+Alotin tekemällä tehtvää katsomalla strings packd komennolla packd tiedostoa. Huomasin että kirjoitus on salattu ja löysin alhaalta tekstin että paketti on pakattu UPX executable packerillä. Kysyin tekoälyltä miten tämän voisi purkaa ja se antoi vastauksesksi lataamalla UPX ja purkaamalla tiedoston.
 
-Jatkan tehtävää vielä.
+![image](https://github.com/user-attachments/assets/d04daaaa-9e91-4073-8f53-2b803a6ad241)
 
+![image](https://github.com/user-attachments/assets/ba620831-8dbf-49be-babb-382e0dd218fc)
+
+Latasin UPX ja purin tiedoston https://github.com/upx/upx/releases/tag/v4.2.4 käyttäen wget  ja tar komentoja
+
+![image](https://github.com/user-attachments/assets/63f6cb6f-8ce1-48fa-8f64-d9f28dbcef37)
 
 
 
