@@ -64,14 +64,11 @@ Latasin UPX ja purin tiedoston https://github.com/upx/upx/releases/tag/v4.2.4 k�
 Menin upx hakemistoon ja purin "packd" tiedoston komennolla: 
 
     ./upx -d ~/Downloads/challenges/packd/packd # purkaa tiedoston ja palauttaa sen alkuperäiseen mutoon. -d decompress eli käskee purkamaan tiedoston.
-
-UPX ilmoitti että purkasi tiedoston. Tämän jälkeen menin katsomaan uudestaan packd tiedostoa strings packd komennolla ja löysin salasanan:
+    
+UPX ilmoitti että purkasi tiedoston. Tämän jälkeen menin katsomaan uudestaan packd tiedostoa strings packd komennolla ja löysin salasanan sekä flagin :
 
 ![image](https://github.com/user-attachments/assets/34250a99-c751-4d23-9cb5-466e7fcc235a)
 
-
-
-## d) Vapaaehtoinen bonus: Cryptopals. Crypto Challenge Set 1. Tätä voi tehdä useamman viikon bonuksena. Jos saat ratkaistua kohdat 1 .. "4. Detect single-character XOR", olet jo astunut salakirjoituksen maailmaan.
 
 # References
 
