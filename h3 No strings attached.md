@@ -72,6 +72,9 @@ UPX ilmoitti että purkasi tiedoston. Tämän jälkeen menin katsomaan uudestaan
 
 ![image](https://github.com/user-attachments/assets/34250a99-c751-4d23-9cb5-466e7fcc235a)
 
+![image](https://github.com/user-attachments/assets/d4c2785c-84d2-4615-88e5-e538e8b6b46f)
+
+
 
 # References
 
