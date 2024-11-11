@@ -30,6 +30,7 @@ Alkuperäinen:
 ![image](https://github.com/user-attachments/assets/b809811e-af19-4bb9-ac40-8fe58534b9fa)
 
 Muutettu:
+
 ![image](https://github.com/user-attachments/assets/2d1e4e5a-1c1f-4ec2-b5e8-1b4a0dd441be)
 
 Kun koodi muunnettu käännetään se :
