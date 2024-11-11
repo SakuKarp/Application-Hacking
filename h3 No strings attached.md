@@ -51,7 +51,7 @@ kuvassa näkyy salasanaa ei näy enää strings passtr komennolla.
 
 ## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
 
-Alotin tekemällä tehtvää katsomalla strings packd komennolla packd tiedostoa. Huomasin että kirjoitus on salattu ja löysin alhaalta tekstin että paketti on pakattu UPX executable packerillä. Kysyin tekoälyltä miten tämän voisi purkaa ja se antoi vastauksesksi lataamalla UPX ja purkaamalla tiedoston.
+Alotin tekemällä tehtvää katsomalla strings packd komennolla packd tiedostoa. Huomasin että kirjoitus on salattu ja löysin alhaalta tekstin että, paketti on pakattu UPX executable packerillä. Kysyin tekoälyltä miten tämän voisi purkaa ja se antoi vastauksesksi lataamalla UPX ja purkaamalla tiedoston.
 
 ![image](https://github.com/user-attachments/assets/d04daaaa-9e91-4073-8f53-2b803a6ad241)
 
@@ -61,6 +61,13 @@ Latasin UPX ja purin tiedoston https://github.com/upx/upx/releases/tag/v4.2.4 k�
 
 ![image](https://github.com/user-attachments/assets/63f6cb6f-8ce1-48fa-8f64-d9f28dbcef37)
 
+Menin upx hakemistoon ja purin "packd" tiedoston komennolla: 
+
+    ./upx -d ~/Downloads/challenges/packd/packd # purkaa tiedoston ja palauttaa sen alkuperäiseen mutoon. -d decompress eli käskee purkamaan tiedoston.
+
+UPX ilmoitti että purkasi tiedoston. Tämän jälkeen menin katsomaan uudestaan packd tiedostoa strings packd komennolla ja löysin salasanan:
+
+![image](https://github.com/user-attachments/assets/34250a99-c751-4d23-9cb5-466e7fcc235a)
 
 
 
@@ -68,7 +75,7 @@ Latasin UPX ja purin tiedoston https://github.com/upx/upx/releases/tag/v4.2.4 k�
 
 # References
 
-https://www.gdbtutorial.com/tutorial/how-install-gdb
+https://github.com/upx/upx/releases
 
 https://terokarvinen.com/application-hacking/
 
