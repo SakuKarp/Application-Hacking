@@ -1,6 +1,6 @@
 h4 Kääntöpaikka
 
-# x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
+## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
 Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat') (Video, noin 20 min)
 
@@ -13,13 +13,13 @@ Hammond 2022: Ghidra for Reverse Engineering (PicoCTF 2022 #42 'bbbloat') (Video
 - hexat / decimals
 
 
-# a) Asenna Ghidra.
+## a) Asenna Ghidra.
 
 Aloitin asentamalla Ghidran kalille komennolla:
 
     sudo apt-get install ghidra
 
-# b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
+## b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
 
 Alotin lataamalla ezbin-challenges.zip Teron sivulta ja purin sen. Tämän jälkeen loin uuden projektin packd_saku ghidraan.
@@ -39,7 +39,7 @@ Avasin packd tiedoston ja analysoin sen. Etsin tämän jälkeen pääohjleman jo
     
 Ohjelma pyytää käyttäjältä salasanan ja tarkistaa, vastaako se oikeaa salasanaa "pillos-AnAnAs". Jos salasana on oikea, ohjelma tulostaa FLAG-arvon. Muuten tulostetaan epäonnistumisviesti.
 
-# c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
+## c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
 Aloitin luomalla uuden projektin passtr ghidrassa. kun sain avattua tiedoston lähdin etsimään mistä pääsisi muokkaamaan tiedostoa.
 
@@ -62,7 +62,7 @@ Testasin toimiiko salasana eri sanoilla kuin sala-hakkeri-321 ja sain tulokseksi
 
 eli salasana toimii kaikilla muilla salasanoilla paitsi oikealla.
 
-# d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
+## d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
 
 Aloitin tehtävän kloonaamalla repon https://github.com/NoraCodes/crackmes omalle .
 
@@ -76,7 +76,7 @@ readme:
 
 
 
-# e) Nora crackme01. Ratkaise binääri.
+## e) Nora crackme01. Ratkaise binääri.
 
 
 aloitin luomalla tiedoston 
@@ -111,7 +111,7 @@ Testasin salasanaa password1 ja se oli oikein.
 
 
 
-# e) Nora crackme01e. Ratkaise binääri.
+## e) Nora crackme01e. Ratkaise binääri.
 
 Aloitin taas luomalla tiedoston:
 
@@ -134,5 +134,8 @@ testasin salasanaa slm!paas.k joka ei ollut oikea. oikea salasana on : slm\!paas
 
 käyttämällä \ huutomerkin edessä varmistetaan ettei shell ei tulkitse huutomerkkiä erityisenä merkkinä tai komennon osana.
 
-# f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
+## f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
+
+# References
+
 
