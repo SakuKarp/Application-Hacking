@@ -144,6 +144,8 @@ https://www.youtube.com/watch?v=oTD_ki86c9I (GHIDRA for Reverse Engineering (Pic
 
 https://github.com/NoraCodes/crackmes
 
+https://nora.codes/tutorial/an-intro-to-x86_64-reverse-engineering/
+
 https://copilot.microsoft.com/
 
 
