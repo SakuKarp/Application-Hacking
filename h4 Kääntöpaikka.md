@@ -102,6 +102,9 @@ testailin kaikkea:
 ![{6429ADC5-4251-4123-910A-38F8E13FA241}](https://github.com/user-attachments/assets/32ba436e-a0b7-4def-9acf-f20fecdd5bf5)
 
 
+komennolla ltrace ./crackme01.64 pass löysin kohdan mistä löytyi : strncmp("pass", "password1", 9) 
+
+Testasin salasanaa password1 ja se oli oikein.
 
 ![{FB4C2958-7C18-4502-B451-C59531ECACEA}](https://github.com/user-attachments/assets/f78616d4-19af-4c6a-8a2d-a7ff9195fcbc)
     
