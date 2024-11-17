@@ -136,6 +136,17 @@ käyttämällä \ huutomerkin edessä varmistetaan ettei shell ei tulkitse huuto
 
 ## f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
 
+Kokeilin tässäkin samoja mitä edellisissä tehtävissä. Sain salasanaksi tässä password1 joka ei ollut oikein.
+
+aloitin tukimalla tiedostoa Ghidralla
+
+![{6382071D-D2C2-401B-9DDC-26C5EB18FC33}](https://github.com/user-attachments/assets/b97ada61-cf2d-4b44-ace7-253061e94a0f)
+
+
+jatkan tehtävää myöhemmin..
+
+
+
 # References
 
 https://terokarvinen.com/application-hacking/
