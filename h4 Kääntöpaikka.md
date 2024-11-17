@@ -26,7 +26,7 @@ Alotin lataamalla ezbin-challenges.zip Teron sivulta ja purim sem. Tämän jälk
 
 ![{96103132-FB26-40D9-92F1-7595EEB07076}](https://github.com/user-attachments/assets/9effd24d-0c8c-449c-b364-4b3f232faa24)
 
-Avasin packd tiedoston ja analysoin sen. Etsin tämän jälkeen pääohjleman joka löytyi Functions -> main. Kävimme tunnilla tämän läpi ja nimesin muuttujia ipnut ja password:
+Avasin packd tiedoston ja analysoin sen. Etsin tämän jälkeen pääohjleman joka löytyi Functions -> main. Kävimme tunnilla tämän läpi ja nimesin muuttujia input ja password:
 
 
 ![{57EC931A-CD32-45FF-B754-032274640BBB}](https://github.com/user-attachments/assets/be22b42c-5373-42af-a1a8-f68597d59ad4)
@@ -37,7 +37,7 @@ Avasin packd tiedoston ja analysoin sen. Etsin tämän jälkeen pääohjleman jo
     __isoc99_scanf("%s", password); # ohjelma odottaa käyttäjän syötettä ja tallentaa sen muuttujaan password
     strcmp(password, "pillos-AnAnAs"); # vertailee käyttäjän syötettä salasanaksi "pillos-AnAnAs". Jos syöte vastaa tätä merkkijonoa, strcmp palauttaa arvon 0
     
-Ohjelma pyytää käyttäjältä salasanan ja tarkistaa, vastaako se oikeaa salasanaa "pillos-AnAnAs". Jos salasana on oikea, ohjelma tulostaa FLAG-arvon; muuten tulostetaan epäonnistumisviesti.
+Ohjelma pyytää käyttäjältä salasanan ja tarkistaa, vastaako se oikeaa salasanaa "pillos-AnAnAs". Jos salasana on oikea, ohjelma tulostaa FLAG-arvon. Muuten tulostetaan epäonnistumisviesti.
 
 # c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
