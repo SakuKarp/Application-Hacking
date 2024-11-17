@@ -53,6 +53,9 @@ Sieltä löytyi JNZ jump if not zero. vaihdoin sen JZ eli jump if zeroksi.
 
 Tämän jälkeen tallensin tiedoston uudella nimellä passtr_1 jonka jälkeen annoin sille oikeudet: chmod +x passtr_1. 
 
+![{CEF7DE3D-8608-45DD-9B7F-024C84C9D78F}](https://github.com/user-attachments/assets/b0e656db-fd87-40de-ae92-51d4db7421e5)
+
+
 Testasin toimiiko salasana eri sanoilla kuin sala-hakkeri-321 ja sain tulokseksi:
 
 ![{8B227A71-17F2-4180-ADDE-F9267E462F41}](https://github.com/user-attachments/assets/39bde52e-8a99-433b-92d0-7c1ac347c7c5)
