@@ -22,7 +22,7 @@ Aloitin asentamalla Ghidran kalille komennolla:
 # b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
 
-Alotin lataamalla ezbin-challenges.zip Teron sivulta ja purim sem. Tämän jälkeen loin uuden projectin packd_saku ghidraan.
+Alotin lataamalla ezbin-challenges.zip Teron sivulta ja purin sen. Tämän jälkeen loin uuden projectin packd_saku ghidraan.
 
 ![{96103132-FB26-40D9-92F1-7595EEB07076}](https://github.com/user-attachments/assets/9effd24d-0c8c-449c-b364-4b3f232faa24)
 
@@ -41,7 +41,23 @@ Ohjelma pyytää käyttäjältä salasanan ja tarkistaa, vastaako se oikeaa sala
 
 # c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
+Aloitin luomalla uuden projektin passtr ghidrassa. kun sain avattua tiedoston lähdin etsimään mistä pääsisi muokkaamaan tiedostoa.
 
+![{E275215A-F52C-484E-8F44-E7BC2880689C}](https://github.com/user-attachments/assets/a844f59f-7cac-4dae-b73b-d62c0843f1b3)
+
+Menin taas symbol tree -> main josta tupla klikkaamalla if (iVar1 == 0) kohtaa 
+
+Sieltä löytyi JNZ jump if not zero. vaihdoin sen JZ eli jump if zeroksi.
+
+![{DC3E6A49-A8CC-47F2-8763-0D7A1E4935D5}](https://github.com/user-attachments/assets/019de30e-b5b0-40fc-84d0-c5a5df340e9e)
+
+Tämän jälkeen tallensin tiedoston uudella nimellä passtr_1 jonka jälkeen annoin sille oikeudet: chmod +x passtr_1. 
+
+Testasin toimiiko salasana eri sanoilla kuin sala-hakkeri-321 ja sain tulokseksi:
+
+![{8B227A71-17F2-4180-ADDE-F9267E462F41}](https://github.com/user-attachments/assets/39bde52e-8a99-433b-92d0-7c1ac347c7c5)
+
+eli salasana toimii kaikilla muilla salasanoilla paitsi oikealla.
 
 # d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
 
