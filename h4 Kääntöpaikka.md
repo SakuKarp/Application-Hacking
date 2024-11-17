@@ -37,7 +37,7 @@ Avasin packd tiedoston ja analysoin sen. Etsin tämän jälkeen pääohjleman jo
     __isoc99_scanf("%s", password); # ohjelma odottaa käyttäjän syötettä ja tallentaa sen muuttujaan password
     strcmp(password, "pillos-AnAnAs"); # vertailee käyttäjän syötettä salasanaksi "pillos-AnAnAs". Jos syöte vastaa tätä merkkijonoa, strcmp palauttaa arvon 0
     
-
+Ohjelma pyytää käyttäjältä salasanan ja tarkistaa, vastaako se oikeaa salasanaa "pillos-AnAnAs". Jos salasana on oikea, ohjelma tulostaa FLAG-arvon; muuten tulostetaan epäonnistumisviesti.
 
 # c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
