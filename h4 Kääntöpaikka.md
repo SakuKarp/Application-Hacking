@@ -22,7 +22,7 @@ Aloitin asentamalla Ghidran kalille komennolla:
 # b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
 
 
-Alotin lataamalla ezbin-challenges.zip Teron sivulta ja purin sen. Tämän jälkeen loin uuden projectin packd_saku ghidraan.
+Alotin lataamalla ezbin-challenges.zip Teron sivulta ja purin sen. Tämän jälkeen loin uuden projektin packd_saku ghidraan.
 
 ![{96103132-FB26-40D9-92F1-7595EEB07076}](https://github.com/user-attachments/assets/9effd24d-0c8c-449c-b364-4b3f232faa24)
 
