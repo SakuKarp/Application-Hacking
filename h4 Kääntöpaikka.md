@@ -64,7 +64,48 @@ eli salasana toimii kaikilla muilla salasanoilla paitsi oikealla.
 
 # d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
 
+Aloitin tehtävän kloonaamalla repon https://github.com/NoraCodes/crackmes omalle .
+
+    git clone https://github.com/NoraCodes/crackmes.git
+
+![{1335276D-FC60-4693-8FD3-CBE21D576271}](https://github.com/user-attachments/assets/1efb08f8-eecd-4b4c-9b16-7b1df427b554)
+
+readme:
+
+![{969668E5-BE38-4E64-B167-6F36039209A2}](https://github.com/user-attachments/assets/5da7a158-0702-43a3-92a1-f7b09d2f1029)
+
+
+
 # e) Nora crackme01. Ratkaise binääri.
+
+
+aloitin luomalla tiedoston 
+
+    make crackme01
+    
+
+![{17B4D4FF-F93F-4A3A-9D69-DE1307C7AF87}](https://github.com/user-attachments/assets/5e658bad-47e3-405a-881d-1431381cbc00)
+
+testailin kaikkea:
+
+    file crackme01.64 # selvittää tiedston tyypin
+
+    strings crackme01.64 # näyttää tulostettavat merkkijonot
+
+    ltrace crackme01.64 # näyttää kutsutut kirjastofunktiot
+
+    
+
+![{BDDD39DA-3F5F-465C-B434-024D146332BC}](https://github.com/user-attachments/assets/34e94008-ce8a-4868-8fb7-c03a54af0727)
+
+
+![{6429ADC5-4251-4123-910A-38F8E13FA241}](https://github.com/user-attachments/assets/32ba436e-a0b7-4def-9acf-f20fecdd5bf5)
+
+
+![{FB4C2958-7C18-4502-B451-C59531ECACEA}](https://github.com/user-attachments/assets/f78616d4-19af-4c6a-8a2d-a7ff9195fcbc)
+    
+
+
 
 # e) Nora crackme01e. Ratkaise binääri.
 
