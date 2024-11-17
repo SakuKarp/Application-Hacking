@@ -138,4 +138,13 @@ käyttämällä \ huutomerkin edessä varmistetaan ettei shell ei tulkitse huuto
 
 # References
 
+https://terokarvinen.com/application-hacking/
+
+https://www.youtube.com/watch?v=oTD_ki86c9I (GHIDRA for Reverse Engineering (PicoCTF 2022 #42 'bbbloat'))
+
+https://github.com/NoraCodes/crackmes
+
+https://copilot.microsoft.com/
+
+
 
