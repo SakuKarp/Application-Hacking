@@ -113,5 +113,26 @@ Testasin salasanaa password1 ja se oli oikein.
 
 # e) Nora crackme01e. Ratkaise binääri.
 
+Aloitin taas luomalla tiedoston:
+
+    make crackme01e
+
+![{6D944AF5-82E0-462C-97B0-071C99F8DB5D}](https://github.com/user-attachments/assets/7d238fbb-1a75-4182-aab4-fd0350118e53)
+
+Tämän jälkeen testasin samat kuin viime tehtävässä.
+
+    file crackme01e.64 
+
+    strings crackme01e.64
+
+    ltrace crackme01e.64
+
+![{BEDAE18F-5A7B-4DEC-8F58-AF6D68DC0426}](https://github.com/user-attachments/assets/ac9dce49-fe53-4f6f-9c86-a8f13de52654)
+
+testasin salasanaa slm!paas.k joka ei ollut oikea. oikea salasana on : slm\!paas.k
+
+
+käyttämällä \ huutomerkin edessä varmistetaan ettei shell ei tulkitse huutomerkkiä erityisenä merkkinä tai komennon osana.
+
 # f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
 
