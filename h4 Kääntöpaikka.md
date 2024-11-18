@@ -26,7 +26,7 @@ Alotin lataamalla ezbin-challenges.zip Teron sivulta ja purin sen. Tämän jälk
 
 ![{96103132-FB26-40D9-92F1-7595EEB07076}](https://github.com/user-attachments/assets/9effd24d-0c8c-449c-b364-4b3f232faa24)
 
-Avasin packd tiedoston ja analysoin sen. Etsin tämän jälkeen pääohjleman joka löytyi Functions -> main. Kävimme tunnilla tämän läpi ja nimesin muuttujia input ja password:
+Avasin packd tiedoston ja analysoin sen. Etsin tämän jälkeen pääohjleman joka löytyi symbol tree -> Functions -> main. Kävimme tunnilla tämän läpi ja nimesin muuttujia input ja password:
 
 
 ![{57EC931A-CD32-45FF-B754-032274640BBB}](https://github.com/user-attachments/assets/be22b42c-5373-42af-a1a8-f68597d59ad4)
