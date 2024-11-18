@@ -45,7 +45,7 @@ Aloitin luomalla uuden projektin passtr ghidrassa. kun sain avattua tiedoston l�
 
 ![{E275215A-F52C-484E-8F44-E7BC2880689C}](https://github.com/user-attachments/assets/a844f59f-7cac-4dae-b73b-d62c0843f1b3)
 
-Menin taas symbol tree -> main josta tupla klikkaamalla if (iVar1 == 0) kohtaa 
+Menin taas symbol tree-> Function -> main josta tupla klikkaamalla if (iVar1 == 0) kohtaa 
 
 Sieltä löytyi JNZ jump if not zero. vaihdoin sen JZ eli jump if zeroksi.
 
