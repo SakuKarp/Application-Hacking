@@ -129,7 +129,7 @@ Tämän jälkeen testasin samat kuin viime tehtävässä.
 
 ![{BEDAE18F-5A7B-4DEC-8F58-AF6D68DC0426}](https://github.com/user-attachments/assets/ac9dce49-fe53-4f6f-9c86-a8f13de52654)
 
-testasin salasanaa slm!paas.k joka ei ollut oikea. oikea salasana on : slm\!paas.k
+testasin salasanaa slm!paas.k joka ei ollut oikea. oikea salasana on : slm \ !paas.k
 
 
 käyttämällä \ huutomerkin edessä varmistetaan ettei shell ei tulkitse huutomerkkiä erityisenä merkkinä tai komennon osana.
