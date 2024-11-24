@@ -73,6 +73,9 @@ Aloitin lab2 paktin lataamisen ja purkamisen.
     make passtr2o
     gdb ./passtr2o
 
+![image](https://github.com/user-attachments/assets/e16fe4e5-ee69-4ebf-8ce0-2576878ce45c)
+
+
 
 
 
