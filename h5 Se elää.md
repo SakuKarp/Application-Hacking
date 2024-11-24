@@ -68,4 +68,13 @@ Ja näin ainakin ohjelma printtaa molemmat ilman erroria.
 
 ## b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi.
 
+Aloitin lab2 paktin lataamisen ja purkamisen.
+
+    make passtr2o
+    gdb ./passtr2o
+
+
+
+
+
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
