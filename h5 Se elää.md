@@ -64,16 +64,8 @@ runnasin sen :
 
 Ja näin ainakin ohjelma printtaa molemmat ilman erroria.
 
+ 
 
+## b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi.
 
-
-
-
-
-  
-
-b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi.
-
-c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
-
-Larin kalvot löytyvät Moodlesta
+## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
