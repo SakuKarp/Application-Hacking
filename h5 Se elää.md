@@ -68,15 +68,29 @@ Ja näin ainakin ohjelma printtaa molemmat ilman erroria.
 
 ## b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi.
 
-Aloitin lab2 paktin lataamisen ja purkamisen.
+Aloitin lab2 paktin lataamisen ja purkamisen. Tämän jälkeen alkoitin tutkimaan tiedostoa.
 
     make passtr2o
     gdb ./passtr2o
 
-![image](https://github.com/user-attachments/assets/e16fe4e5-ee69-4ebf-8ce0-2576878ce45c)
+
+Hetken tutkimisen jälkeen löysin mAsdf3a johon loin breakpoitin. Täältä löysin oman salasanan mitä olin testannut sekä salasanan anLTj4u8.
 
 
-Tutkin tiedostoa debuggerilla aika kauan ja pääsin kohtaan josta löytyi salasana anLTj4u8. Testasin salasanaa ja se ei ollut oikea. Tutkiskelin vielä tätä tiedostoa todella kauan enkä päässyt etenemään. 
+![image](https://github.com/user-attachments/assets/80cf930f-a12d-4741-a718-8411d2123458)
+
+Tämä ei ollut oikea salasana: 
+
+![image](https://github.com/user-attachments/assets/0cc04535-fc5b-483b-9d8e-65d45644f92c)
+
+
+Tutkiskelin vielä kauan tätä mutta tämä oli liian haastavaa itselleni joten en päässyt tästä pidemmälle.
+
+
+
+
+
+
 
 
 
