@@ -96,6 +96,8 @@ Tutkiskelin vielä kauan tätä mutta tämä oli liian haastavaa itselleni joten
 
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 
+Minulla on mennyt näihin tehtäviin jo noin 10 tuntia mutta yritän vielä jatkaa näitä myöhemmin.
+
 
 ## References:
 
