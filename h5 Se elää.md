@@ -15,6 +15,15 @@ Joka antoi minulle vastaukseksi :
 
 ![image](https://github.com/user-attachments/assets/0fc1aa67-e5b0-4bc3-a224-f66a180c3389)
 
+Huomasin heti että siinä tuli Segmentation fault joten lähdin tutkimaan tätä netistä. Ensimmäinen linkki minkä löysin kun kirjoitin segmentation fault oli :
+
+https://stackoverflow.com/questions/2346806/what-is-a-segmentation-fault
+
+Sivulla kerrottiin että, segmentation fault on erityinen virhetyyppi joka syntyy, kun ohjelma yrittää käyttää muistia joka ei kuulu sille.
+
+Tämän jälkeen aloitin debuggaamisen:
+
+
 loin breakpointin mainiin jonka jälkeen lähdin tutkimaan muuttujien arvoja.
 
     print bad_message
@@ -48,6 +57,7 @@ runnasin sen :
 
 
 Huomasin heti että siinä tuli Segmentation fault joten lähdin tutkimaan tätä netistä. Ensimmäinen linkki minkä löysin kun kirjoitin segmentation fault oli :
+
 https://stackoverflow.com/questions/2346806/what-is-a-segmentation-fault
 
 Sivulla kerrottiin että, segmentation fault on erityinen virhetyyppi joka syntyy, kun ohjelma yrittää käyttää muistia joka ei kuulu sille.
