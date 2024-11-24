@@ -7,7 +7,7 @@ Alotin lataamalla paketin lab1 ja purkamalla sen virtuaalikoneelleni.
     wget wget https://terokarvinen.com/application-hacking/lab1.zip
     unzip lab1.zip
 
-Tämän jälkeen ajoin gdb_examle1. 
+Tämän jälkeen ajoin gdb_example1. 
 
     make part1 # kääntää ohjelman käyttämällä Makefileä
     ./gdb_example.1  # avaa ohjelman
