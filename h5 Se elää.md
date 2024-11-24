@@ -107,4 +107,6 @@ https://terokarvinen.com/application-hacking/
 
 [GDB cheatsheet 2007 Marc Haisenko](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
+https://www.youtube.com/watch?v=Dq8l1_-QgAc
+
 
