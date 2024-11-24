@@ -96,7 +96,7 @@ Tutkiskelin vielä kauan tätä mutta tämä oli liian haastavaa itselleni joten
 
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 
-Minulla on mennyt näihin kaikkiin tehtäviin jo noin 10 tuntia mutta yritän vielä jatkaa näitä myöhemmin. Tämän viikon tehtävät ovat olleet todella hankalia minulle ainakin mutta olen silti oppinut jokseenkin miten GDB debuggeri toimii ja muutenkin reverse engineeringistä.
+Minulla on mennyt näihin kaikkiin tehtäviin jo useita tunteja mutta yritän vielä jatkaa näitä myöhemmin. Tämän viikon tehtävät ovat olleet todella hankalia minulle ainakin mutta olen silti oppinut jokseenkin miten GDB debuggeri toimii ja muutenkin reverse engineeringistä.
 
 
 ## References:
