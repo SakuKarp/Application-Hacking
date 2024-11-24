@@ -53,7 +53,7 @@ runnasin sen :
 ![image](https://github.com/user-attachments/assets/9c81be2f-e2c1-4461-9121-5d4b6cc44e94)
 
 
-Ja näin ohjelma printtaa molemmat rivit oikein ilman virheitä.
+Ja näin ainakin ohjelma printtaa molemmat ilman erroria.
 
 
 
