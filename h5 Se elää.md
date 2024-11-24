@@ -1,6 +1,6 @@
 # h5 Se elää! (Tämä tehtävänanto sisältää pääosin Lari Iso-Anttilan laatimia tehtäviä.)
 
-a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan.
+## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan.
 
 Alotin lataamalla paketin lab1 ja purkamalla sen virtuaalikoneelleni. 
 
