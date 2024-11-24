@@ -53,18 +53,7 @@ runnasin sen :
 ![image](https://github.com/user-attachments/assets/9c81be2f-e2c1-4461-9121-5d4b6cc44e94)
 
 
-
-
-
-Huomasin heti että siinä tuli Segmentation fault joten lähdin tutkimaan tätä netistä. Ensimmäinen linkki minkä löysin kun kirjoitin segmentation fault oli :
-
-https://stackoverflow.com/questions/2346806/what-is-a-segmentation-fault
-
-Sivulla kerrottiin että, segmentation fault on erityinen virhetyyppi joka syntyy, kun ohjelma yrittää käyttää muistia joka ei kuulu sille.
-
-Tämän jälkeen aloitin debuggaamisen:
-
-
+Ja näin ohjelma printtaa molemmat rivit oikein ilman virheitä.
 
 
 
