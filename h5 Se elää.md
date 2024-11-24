@@ -9,7 +9,9 @@ Alotin lataamalla paketin lab1 ja purkamalla sen virtuaalikoneelleni.
 
 Tämän jälkeen ajoin gdb_examle1. 
 
-    ./gdb_example.1
+    make part1 # kääntää ohjelman käyttämällä Makefileä
+    ./gdb_example.1  # avaa ohjelman
+    gdb ./gdb_example.1 # käynnistää ohjelman gdb
 
 Joka antoi minulle vastaukseksi :
 
@@ -43,9 +45,16 @@ huomasion että virhe tapahtuu rivillä 18
 Joten tämä liittyy jotenkin siihen että 14 rivillä on = NULL;. Ohjelma siis yrittää käyttää osoitinta tässä, joka ei osoita mihinkään mikä toimisi.
 
 
-Muokkasin tämän null arvon testiin:
+Muokkasin tämän null arvon testiin ja tallensin:
+
+    make part1 # käntää ohjelman uudelleen
+    gdb ./gdb_example1 # käynnistää ohjelman gdb
+    run # runnaa tiedoston
 
 ![image](https://github.com/user-attachments/assets/0d3e7c7e-51f3-4a00-831b-8ddf182460c5)
+
+
+
 
 
 runnasin sen :
