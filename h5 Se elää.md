@@ -28,6 +28,9 @@ huomasion että virhe tapahtuu rivillä 18
 
 ![image](https://github.com/user-attachments/assets/88edaf3e-959f-45fc-9954-190ed63d67d7)
 
+![image](https://github.com/user-attachments/assets/799aacf1-a12e-4eca-bce8-cbad25a1c5bd)
+
+
 Joten tämä liittyy jotenkin siihen että 14 rivillä on = NULL;. Ohjelma siis yrittää käyttää osoitinta tässä, joka ei osoita mihinkään mikä toimisi.
 
 
