@@ -52,8 +52,35 @@ documents.xml tiedostosta löytyi hauskoja tulevaisuuteen liittyviä ennustuksia
 c) FOSS (Free Android OpenSource). Tutustu Android-sovelluksiin Offan (2024) 
 listalta: Android FOSS. Valitse listalla itsellesi mielenkiintoisin applikaatio ja mene sen GitHubiin. 
 Lataa ohjelman APK itsellesi ja käytä seuraavia työkaluja tutustuaksesi, miten APK:n voi avata.
+
+Etsin mieluisen sovelluksen sivulta https://github.com/offa/android-foss ja valitsin sieltä FreePaintin
+
 ZIP
+Aloitin nimeämällä tiedoston uudestaan:
+
+    mv app-release.apk app-release.zip
+    mkdir ss #luo uuden kansion
+    mv app-release.zp ss # siirtää uuteen kansioon
+    unzip app-release.zip # purkaa
+
+Tämän jälkeen päästiinkin katsomaan mitä tiedoston sisällä on:
+
+![image](https://github.com/user-attachments/assets/f7e6ae4e-640f-4bde-81cf-0b4d64d8182c)
+
+
 JADX
+
+Aloitin lataamalla JADX gitistä : https://github.com/skylot/jadx
+
+        wget https://github.com/skylot/jadx/releases/download/v1.5.1/jadx-1.5.1.zip
+        unzip jadx-1.5.1.zip
+        ./jadx-gui
+
+Avasin classes.dex tiedoston käyttäen jadx ja sain sieltä kaiken auki. Siellä oli paljon tietoa ohjelmasta.
+
+![image](https://github.com/user-attachments/assets/74bc9f3c-f679-4671-86ff-0644518c80ed)
+
+
 Bytecode-viewer
 
 ## References
