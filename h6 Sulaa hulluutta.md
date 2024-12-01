@@ -95,6 +95,11 @@ Kun sain bytecoderin auki avasin zippi tiedoston app-release ja pääsin taas tu
 
 
 ## References
+
 https://askubuntu.com/questions/733169/how-to-install-libxml2-in-ubuntu-15-10
+
+https://github.com/skylot/jadx
+
+https://github.com/Konloch/bytecode-viewer/
 
 https://terokarvinen.com/application-hacking/
