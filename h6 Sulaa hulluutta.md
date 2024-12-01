@@ -70,6 +70,8 @@ Tämän jälkeen päästiinkin katsomaan mitä tiedoston sisällä on:
 
 ![image](https://github.com/user-attachments/assets/f7e6ae4e-640f-4bde-81cf-0b4d64d8182c)
 
+Käytin tässä file sekä strings komentoja mutta en niistä tarkempaa tietoa laita tänne. Koitin myös formatoida tiedostoja ja tutkia tiedostoja.
+
 
 JADX
 
