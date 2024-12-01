@@ -1,6 +1,6 @@
 # h6 Sulaa hulluutta
 
-# a) Tutki tiedostoa h1.jpg jo opituilla työkaluilla. Mitä saat selville?
+# a) Tutki tiedostoa h1.jpg
 
 Aloitin tutkimisen ensimmäiseksi lataamalla tiedoston.
 
@@ -19,7 +19,7 @@ Kun katsoin tiedostoa strings komennolla löysin eri xml ja xmlpk tiedostoja jot
 
 
 
-# b) Tutki tiedostoa h1.jpg binwalk:lla. Mitä tietoja löydät nyt tiedostosta? Mitä työkalua käyttäisit tiedostojen erottamiseen?
+# b) Tutki tiedostoa h1.jpg binwalk:lla
 
 Aloitin tehtävän asentamalla binwalkin, jonka jälkeen lähdin tutkimaan kuva tiedosta uudestaan.
 
@@ -49,9 +49,7 @@ documents.xml tiedostosta löytyi hauskoja tulevaisuuteen liittyviä ennustuksia
 
 
 
-c) FOSS (Free Android OpenSource). Tutustu Android-sovelluksiin Offan (2024) 
-listalta: Android FOSS. Valitse listalla itsellesi mielenkiintoisin applikaatio ja mene sen GitHubiin. 
-Lataa ohjelman APK itsellesi ja käytä seuraavia työkaluja tutustuaksesi, miten APK:n voi avata.
+c) FOSS (Free Android OpenSource).
 
 Etsin mieluisen sovelluksen sivulta https://github.com/offa/android-foss ja valitsin sieltä FreePaintin
 
@@ -83,6 +81,20 @@ Avasin classes.dex tiedoston käyttäen jadx ja sain sieltä kaiken auki. Siell�
 
 Bytecode-viewer
 
+Aloitin lataamalla paketin verkosta. 
+
+    wget https://github.com/Konloch/bytecode-viewer/releases/download/v2.12/Bytecode-Viewer-2.12.jar
+    java -jar Bytecode-Viewer-2.12.jar # avaa
+
+![image](https://github.com/user-attachments/assets/0767640d-3c49-4bda-97ae-ef87e3da5eaf)
+
+Kun sain bytecoderin auki avasin zippi tiedoston app-release ja pääsin taas tutkimaan tiedoston sisältöä: 
+
+![image](https://github.com/user-attachments/assets/9eb5a055-13b7-41d8-b051-eb4485f1ab1a)
+
+
+
 ## References
+https://askubuntu.com/questions/733169/how-to-install-libxml2-in-ubuntu-15-10
 
 https://terokarvinen.com/application-hacking/
