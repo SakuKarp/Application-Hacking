@@ -56,7 +56,7 @@ documents.xml tiedostosta löytyi hauskoja tulevaisuuteen liittyviä ennustuksia
 
 # c) FOSS (Free Android OpenSource).
 
-Etsin mieluisen sovelluksen sivulta https://github.com/offa/android-foss ja valitsin sieltä FreePaintin
+Etsin mieluisen sovelluksen sivulta https://github.com/offa/android-foss ja valitsin sieltä FreePaintin. 
 
 # ZIP
 
@@ -103,6 +103,10 @@ Kun sain bytecoderin auki avasin zippi tiedoston app-release ja pääsin taas tu
 
 
 ## References
+
+https://github.com/pastthepixels/FreePaint
+
+https://github.com/offa/android-foss?tab=readme-ov-file#-apps-
 
 https://askubuntu.com/questions/733169/how-to-install-libxml2-in-ubuntu-15-10
 
