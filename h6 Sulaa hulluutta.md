@@ -53,7 +53,8 @@ documents.xml tiedostosta löytyi hauskoja tulevaisuuteen liittyviä ennustuksia
 
 
 
-c) FOSS (Free Android OpenSource).
+
+# c) FOSS (Free Android OpenSource).
 
 Etsin mieluisen sovelluksen sivulta https://github.com/offa/android-foss ja valitsin sieltä FreePaintin
 
