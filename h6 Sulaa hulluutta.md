@@ -58,7 +58,8 @@ documents.xml tiedostosta löytyi hauskoja tulevaisuuteen liittyviä ennustuksia
 
 Etsin mieluisen sovelluksen sivulta https://github.com/offa/android-foss ja valitsin sieltä FreePaintin
 
-ZIP
+# ZIP
+
 Aloitin nimeämällä tiedoston uudestaan:
 
     mv app-release.apk app-release.zip
@@ -73,7 +74,7 @@ Tämän jälkeen päästiinkin katsomaan mitä tiedoston sisällä on:
 Käytin tässä file sekä strings komentoja mutta en niistä tarkempaa tietoa laita tänne. Koitin myös formatoida tiedostoja ja tutkia tiedostoja.
 
 
-JADX
+# JADX
 
 Aloitin lataamalla JADX gitistä : https://github.com/skylot/jadx
 
@@ -86,7 +87,7 @@ Avasin classes.dex tiedoston käyttäen jadx ja sain sieltä kaiken auki. Siell�
 ![image](https://github.com/user-attachments/assets/74bc9f3c-f679-4671-86ff-0644518c80ed)
 
 
-Bytecode-viewer
+# Bytecode-viewer
 
 Aloitin lataamalla paketin verkosta. 
 
