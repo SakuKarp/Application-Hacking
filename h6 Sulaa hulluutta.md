@@ -38,11 +38,15 @@ Lähdin tutkimaan tiedoston sisältöä. Sisältö oli sekavaa joten lähdin tut
     xmllint --format document.xml # formatoi document.xml tiedoston
 
 Ennen formatointia:
+
 ![image](https://github.com/user-attachments/assets/d979c1a1-3cb5-4709-83f6-e11314d5a00a)
 
 
 Formatoinnin jälkeen:
+
 ![image](https://github.com/user-attachments/assets/2803afce-54aa-4b51-b54e-9c6045c95f15)
+
+
 
 documents.xml tiedostosta löytyi hauskoja tulevaisuuteen liittyviä ennustuksia. Nämä varmaan pitävät paikkansa ja voivat olla salaista tietoa.
 
