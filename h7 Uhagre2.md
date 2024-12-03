@@ -15,7 +15,7 @@ Karvinen 2024: Python Basics for Hackers
 
 ## a) 1. Convert hex to base64.
 
-##b) 2. Fixed XOR.
+## b) 2. Fixed XOR.
 
 ## c) 3. Single-byte XOR cipher.
 
