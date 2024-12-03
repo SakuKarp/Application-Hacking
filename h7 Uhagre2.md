@@ -3,9 +3,13 @@
 ## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
 € Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations:
+
 1.1 Terminology ("Historical Terms" loppuun)
+
 1.4 Simple XOR
+
 1.7 Large Numbers
+
 Karvinen 2024: Python Basics for Hackers
 
 
