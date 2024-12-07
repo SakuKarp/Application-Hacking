@@ -21,12 +21,4 @@ Karvinen 2024: Python Basics for Hackers
 
 ## d) 4. Detect single-character XOR.
 
-## e) Vapaaehtoinen, suositeltava: 5. Implement repeating-key XOR.
-
-## g) Vapaaehtoinen: 6. Break repeating-key XOR.
-
-## h) Vapaaehtoinen: 7. AES in ECB mode.
-
-## i) Vapaaehtoinen: 8. Detect AES in ECB mode.
-
 # References
