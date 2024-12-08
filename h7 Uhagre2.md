@@ -43,6 +43,8 @@ muunnettu tuloste:
 
 ## b) 2. Fixed XOR.
 
+
+
 ## c) 3. Single-byte XOR cipher.
 
 ## d) 4. Detect single-character XOR.
@@ -53,4 +55,8 @@ https://terokarvinen.com/application-hacking/
 
 https://terokarvinen.com/python-for-hackers/
 
+https://docs.python.org/3/library/binascii.html
+
 https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec005 (1.1, 1.4, 1.7)
+
+
