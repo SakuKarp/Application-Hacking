@@ -23,11 +23,11 @@
 
 1.7 Large Numbers
 
-Tekstissä kerrotaa siitä, että kirjassa käytetään useita suuria lukuja kryptografian eri asioiden kuvaamiseen.
+- Tekstissä kerrotaa siitä, että kirjassa käytetään useita suuria lukuja kryptografian eri asioiden kuvaamiseen.
 
 Karvinen 2024: Python Basics for Hackers
 
-Ohjeet miten päästä alkuun pythonilla.
+- Ohjeet miten päästä alkuun pythonilla.
 
 
 ## a) 1. Convert hex to base64.
