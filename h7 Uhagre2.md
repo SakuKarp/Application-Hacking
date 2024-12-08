@@ -43,11 +43,13 @@ muunnettu tuloste:
 
 ## b) 2. Fixed XOR.
 
-
+Tämän viikon tehtävät ovat itselle ainakin olleet hankalia ja aikaa on ollut rajallisesti, mutta yritän saada näitä tehtyä vielä. 
 
 ## c) 3. Single-byte XOR cipher.
 
 ## d) 4. Detect single-character XOR.
+
+
 
 # References
 
