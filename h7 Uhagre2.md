@@ -37,6 +37,7 @@ Aloitin tehtävän tekemisen ja huomasin, että tehtävä oli liian vaikea. Siks
 
 ![image](https://github.com/user-attachments/assets/7e8a25d0-dd18-40af-8d5d-854719c9b3ec)
 
+
 ![image](https://github.com/user-attachments/assets/e4a04780-c33b-4768-840a-0beb23c83a79)
 
 ## b) 2. Fixed XOR.
