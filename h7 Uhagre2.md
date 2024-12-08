@@ -59,4 +59,6 @@ https://docs.python.org/3/library/binascii.html
 
 https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec005 (1.1, 1.4, 1.7)
 
+https://www.educative.io/answers/what-is-binasciiunhexlify-in-python
+
 
