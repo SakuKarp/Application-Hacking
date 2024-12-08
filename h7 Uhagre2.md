@@ -34,10 +34,11 @@ Karvinen 2024: Python Basics for Hackers
 
 Aloitin tehtävän tekemisen ja huomasin, että tehtävä oli liian vaikea. Siksi lähdin tutkimaan Teron antamia vinkkejä, jotka auttoivat pääsemään alkuun tehtävässä. Huomasin, että siinä voidaan käyttää binascii -kirjastoa ja base64-kirjastoa. binascii-kirjastossa on funktio unhexlify, joka auttaa dekoodaamaan heksadesimaalimuotoisen merkkijonon binäärimuotoon. base64-kirjasto mahdollistaa binääridatan koodaamisen base64-muotoon. Jouduin käyttämään apuna Copilotia, joka auttoi joissakin kohdissa koodin luomisessa.
 
+koodi:
 
 ![image](https://github.com/user-attachments/assets/7e8a25d0-dd18-40af-8d5d-854719c9b3ec)
 
-
+muunnettu tuloste:
 ![image](https://github.com/user-attachments/assets/e4a04780-c33b-4768-840a-0beb23c83a79)
 
 ## b) 2. Fixed XOR.
