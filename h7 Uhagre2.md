@@ -39,3 +39,9 @@ Karvinen 2024: Python Basics for Hackers
 ## d) 4. Detect single-character XOR.
 
 # References
+
+https://terokarvinen.com/application-hacking/
+
+https://terokarvinen.com/python-for-hackers/
+
+https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec005 (1.1, 1.4, 1.7)
