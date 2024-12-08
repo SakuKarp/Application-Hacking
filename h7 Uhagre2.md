@@ -1,16 +1,33 @@
 # h7 Uhagre2
 
-## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
+## x) Lue/katso/kuuntele ja tiivistä.
 
 € Schneier 2015: Applied Cryptography, 20ed: Chapter 1: Foundations:
 
 1.1 Terminology ("Historical Terms" loppuun)
 
+- Kryptografiassa käytetään monia erityistermejä ja käsitteitä
+- Koodit ja salakirjoitukset
+- Salakirjoitukset
+- Authentication, Integrity, Nonrepudiation
+- Plaintext, Ciphertext
+- Encryption, Decryption
+
 1.4 Simple XOR
+
+- Salaustekniikka
+- XOR on operaattiori
+- XOR perusteet
+- Yksinkertainen XOR-algoritmi on Vigenèren polyalfabeettinen salakirjoitus
+- Yksinkertaisen XOR-algoritmin murtaminen
 
 1.7 Large Numbers
 
+Tekstissä kerrotaa siitä, että kirjassa käytetään useita suuria lukuja kryptografian eri asioiden kuvaamiseen.
+
 Karvinen 2024: Python Basics for Hackers
+
+Ohjeet miten päästä alkuun pythonilla.
 
 
 ## a) 1. Convert hex to base64.
