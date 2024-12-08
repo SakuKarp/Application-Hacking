@@ -32,6 +32,13 @@ Karvinen 2024: Python Basics for Hackers
 
 ## a) 1. Convert hex to base64.
 
+Aloitin tehtävän tekemisen ja huomasin, että tehtävä oli liian vaikea. Siksi lähdin tutkimaan Teron antamia vinkkejä, jotka auttoivat pääsemään alkuun tehtävässä. Huomasin, että siinä voidaan käyttää `binascii`-kirjastoa ja `base64`-kirjastoa. `binascii`-kirjastossa on funktio `unhexlify`, joka auttaa dekoodaamaan heksadesimaalimuotoisen merkkijonon binäärimuotoon. `base64`-kirjasto puolestaan mahdollistaa binääridatan koodaamisen base64-muotoon. Jouduin käyttämään apuna Copilotia, joka auttoi ymmärtämään, miten koodi luodaan ja toimii.
+
+
+![image](https://github.com/user-attachments/assets/7e8a25d0-dd18-40af-8d5d-854719c9b3ec)
+
+![image](https://github.com/user-attachments/assets/e4a04780-c33b-4768-840a-0beb23c83a79)
+
 ## b) 2. Fixed XOR.
 
 ## c) 3. Single-byte XOR cipher.
